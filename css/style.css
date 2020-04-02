@@ -7,6 +7,10 @@ body {
     background-color: #e5e5e5;
 }
 
+body.hideScroll {
+    overflow: hidden;
+}
+
 a {
     text-decoration: none;
     font-weight: bold;
@@ -15,7 +19,26 @@ a {
 
 a:hover {
     text-decoration: underline;
-    color: #ff5eb4;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    margin-left: 10px;
+    width: 150px;
+    height: 40px;
+    color: #fff;
+    background-color: #ff5eb4;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px #ff5eb432;
+    transition: 400ms;
+}
+
+.btn:hover {
+    background-color: #0984e3;
+    text-decoration: none;
 }
 
 p,
@@ -34,7 +57,7 @@ p,
 
 #intro {
     width: 300px;
-    margin-right: 20px;
+    margin-right: 64px;
 }
 
 main {
@@ -61,20 +84,6 @@ button {
 
 #buttons button:nth-of-type(1):hover {
     text-decoration: underline;
-}
-
-.fat-btn {
-    margin-left: 10px;
-    width: 150px;
-    height: 40px;
-    color: #fff;
-    background-color: #ff5eb4;
-    border-radius: 5px;
-    box-shadow: 0 8px 16px #ff5eb432;
-}
-
-.fat-btn:hover {
-    background-color: #fa4aa8;
 }
 
 footer {
@@ -125,14 +134,19 @@ footer a {
     justify-content: center;
     position: absolute;
     top: 0;
-    width: 100vw;
-    height: 100vh;
+    bottom: 0;
+    left: 0;
+    right: 0;
     background-color: #ff5eb4;
     transition: 400ms;
 }
 
+#modal.addScroll {
+    overflow: auto;
+}
+
 #modal .content {
-    margin-top: 128px;
+    margin-top: 5%;
     color: #fff;
 }
 
@@ -145,7 +159,7 @@ footer a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
-    margin: 0 auto;
+    margin: 0 auto 5%;
     width: 80%;
     max-width: 800px;
 }
@@ -217,4 +231,67 @@ form button:hover {
 #modal.hide {
     opacity: 0;
     visibility: hidden;
+}
+
+/* ==== ideias.html ====*/
+
+#page-ideas .container {
+    display: block;
+}
+
+#page-ideas header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#page-ideas nav {
+    display: flex;
+    align-items: center;
+}
+
+#page-ideas nav li {
+    margin-right: 16px;
+    list-style: none;
+}
+
+#page-ideas nav li a {
+    color: #25282b;
+}
+
+#page-ideas nav li a.btn {
+    color: #fff;
+}
+
+#page-ideas nav li:last-child {
+    margin: 0;
+}
+
+section#title {
+    text-align: center;
+}
+
+section#title p {
+    margin: 0;
+    opacity: 0.7;
+}
+
+section#title h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+section#ideas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+section#ideas .idea {
+    margin: 0;
+}
+
+section#title,
+section#ideas,
+footer {
+    margin-top: 64px;
 }
