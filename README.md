@@ -3,7 +3,7 @@
 
 </h1>
 
-<p align="center">:house: Casa Criativa.</p>
+<p align="center">:house_with_garden: Fique em casa.</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/made%20by-RAFAEL%20MARTINS-ff5eb4?style=flat-square">
