@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/made%20by-RAFAEL%20MARTINS-ff5eb4?style=flat-square">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/martins-rafael/casa-criativa?color=ff5eb4&style=flat-square">
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/martins-rafael/casa-criativa?color=ff5eb4&style=flat-square">
-  <a href="https://github.com/martins-rafael/Doe/commits/master">
+  <a href="https://github.com/martins-rafael/casa-criativa/commits/master">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/martins-rafael/casa-criativa?color=ff5eb4&style=flat-square">
   </a>
   <a href="https://opensource.org/licenses/MIT">
